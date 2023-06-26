@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head-section,
+        #body-section,
+        #footer-section {
+            display: none;
+        }
+
+        #head-section:target,
+        #body-section:target,
+        #footer-section:target {
+            display: block;
+        }
+    </style>
+    <link href="./mainsection.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="btn">
+        <a href="./mainsection.html#head-section" style="margin: 20px; text-decoration: none;">
+            <h2 class="click1">Cake</h2>
+        </a>
+
+        <a href="./mainsection.html#body-section" style="margin: 20px; text-decoration: none;">
+            <h2 class="click1">Biriyani</h2>
+        </a>
+        <a href="./mainsection.html#footer-section" style="margin:20px; text-decoration: none;">
+            <h2 class="click1">Tea</h2>
+        </a>
+    </div>
+
+    <div id="head-section">
+        <h1 class="dec">Cake</h1>
+        <div class="center">
+            <img class="pic1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxtUe4jQOQroCUIFogrUUV1DBttu7A0iit1g&usqp=CAU"
+                alt="cake" />
+            <p style="color: whitesmoke;"> <span><b> About</b></span> <br/> <br /><br /> Whether it is a birthday, a marriage,
+                or any other special event, a cake is a sure-shot way to raise the celebrations a notch. Cake cutting
+                holds a special place at the heart of many occasions in almost all cultures. Someone has rightly said,
+                “A party without a cake is just a meeting!” Being such an important part of a special event, the cake
+                must be nothing but the best. </p>
+        </div>
+    </div>
+    <div id="body-section">
+        <h1 class="dec">Biriyani</h1>
+        <div class="center">
+            <img class="pic1" src="https://cdn.pixabay.com/photo/2022/11/18/05/40/biriyani-7599454_640.jpg"
+                alt="cake" />
+            <p style="color: whitesmoke;"> <span><b> About</b></span> <br /> <br /><br /> Biryani is a spiced mix of
+                meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways
+                with a variety of components to create a number of highly tasty and unique flavor combinations. </p>
+        </div>
+    </div>
+    <div id="footer-section">
+        <h1 class="dec">Tea</h1>
+        <div class="center">
+            <img class="pic1" src="https://cdn.pixabay.com/photo/2022/01/25/12/16/mug-6966047_640.jpg" alt="cake" />
+            <p style="color: whitesmoke;"><span><b> About</b></span> <br /> <br /><br /> Numerous studies have shown that a
+                variety of teas may boost your immune system, fight off inflammation, and even ward off cancer and heart
+                disease. While some brews provide more health advantages than others, there's plenty of evidence that
+                regularly drinking tea can have a lasting impact on your wellness. </p>
+        </div>
+    </div>
+</body>
+
+</html>
